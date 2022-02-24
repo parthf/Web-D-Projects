@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 151, 211);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 50%;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    color: rgb(255, 255, 255, .9);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.btn:active {
+    transform: scale(.98);
+}
