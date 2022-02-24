@@ -1,0 +1,67 @@
+:root {
+    --universal-color: #0c0b0c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--universal-color);
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem .7rem var(--universal-color);
+    text-align: center;
+    padding: 5rem 2rem;
+    max-width: 100%;
+    width: 80rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+    color: var(--universal-color);
+    opacity: .8;
+    letter-spacing: 2px;
+}
+
+.joke {
+    margin: 1.8rem auto;
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    letter-spacing: 1px;
+    max-width: 60rem;
+}
+
+.btn {
+    background-color: #0c0b0c;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: .5rem .5rem .5rem #0c0b0c;
+    padding: 1.4rem 3.8rem;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
